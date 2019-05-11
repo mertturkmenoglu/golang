@@ -9,9 +9,8 @@ import "fmt"
 func evenOdd(number int) (string, int) {
 	if number%2 == 0 {
 		return "even", 0
-	} else {
-		return "odd", 1
 	}
+	return "odd", 1
 }
 
 func main() {
