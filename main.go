@@ -14,7 +14,8 @@ func main() {
         fmt.Scan(&array[i])
 	}
     
-    minIndex := 0
+    var minIndex int
+    minIndex = 0
     
     for i := 1; i < 10; i++ {
         if (array[i] < array[minIndex]) {
