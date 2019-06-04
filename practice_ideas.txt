@@ -1,0 +1,19 @@
+* 0 matrix - check
+* sum of two matrix - check
+* read an array 
+* create identity matrix
+* "Matris izi"
+* Swap row and column
+* sum of a row and column
+* transpose of a matrix
+* "yedek köşegen izi"
+* linked list
+* queue
+* sort
+* search
+* stack
+* string search
+* largest prime in a given set
+* letter frequencies in a string
+* sum of two big integer numbers
+* newton rhapson
