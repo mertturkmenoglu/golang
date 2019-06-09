@@ -1,7 +1,7 @@
 * 0 matrix - check
 * sum of two matrix - check
-* read an array 
-* create identity matrix
+* read an array - check
+* create identity matrix - check
 * "Matris izi"
 * Swap row and column
 * sum of a row and column
