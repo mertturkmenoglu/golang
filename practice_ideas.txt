@@ -7,11 +7,11 @@
 * sum of a row and column
 * transpose of a matrix
 * "yedek köşegen izi"
-* linked list
+* linked list - check
 * queue
 * sort
 * search
-* stack
+* stack - check
 * string search
 * largest prime in a given set
 * letter frequencies in a string
