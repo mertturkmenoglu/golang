@@ -17,3 +17,4 @@
 * letter frequencies in a string
 * sum of two big integer numbers
 * newton rhapson
+* reverse each word of a string
