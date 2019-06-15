@@ -14,8 +14,8 @@ func main() {
 	var num3, num4 int8
 	var str2, str3 string
 
-	var num5 int = 42
-	var str4 string = "answer"
+	// var num5 int = 42
+	// var str4 string = "answer"
 
 	var num6 = 3.14
 
@@ -37,8 +37,8 @@ func main() {
 	fmt.Println(num4)
 	fmt.Println(str2)
 	fmt.Println(str3)
-	fmt.Println(num5)
-	fmt.Println(str4)
+	// fmt.Println(num5)
+	// fmt.Println(str4)
 	fmt.Println(num6)
 	fmt.Println(num7)
 	fmt.Println(num8)
