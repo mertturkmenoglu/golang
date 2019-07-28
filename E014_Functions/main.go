@@ -6,7 +6,7 @@
  *	- Functions requires explicit returns
  *	- In function definition, if consecutive parameters
  * have same type, type name can be omitted and you can
- * write only the last paramaters type
+ * write only the last parameters type
  */
 
 package main

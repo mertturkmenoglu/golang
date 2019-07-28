@@ -19,11 +19,11 @@ func (s *Stack) init(initialCapacity int) {
 }
 
 func (s *Stack) isFull() bool {
-	return (s.top == s.capacity)
+	return s.top == s.capacity
 }
 
 func (s *Stack) isEmpty() bool {
-	return (s.top == 0)
+	return s.top == 0
 }
 
 func (s *Stack) push(value int) bool {

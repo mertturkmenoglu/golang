@@ -7,12 +7,12 @@ package main
 import "fmt"
 
 func main() {
-	mychan := make(chan string)
+	myChannel := make(chan string)
 
-	mychan <- "first"
-	mychan <- "second"
+	myChannel <- "first"
+	myChannel <- "second"
 
-	fmt.Println(<-mychan)
-	fmt.Println(<-mychan)
+	fmt.Println(<-myChannel)
+	fmt.Println(<-myChannel)
 
 }

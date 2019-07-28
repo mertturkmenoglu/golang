@@ -33,7 +33,7 @@ func main() {
 	}
 
 	// Enhanced version
-	// You can seperate cases with comma
+	// You can separate cases with comma
 	// They share a common operation
 	for i := 0; i < 10; i++ {
 		switch i {

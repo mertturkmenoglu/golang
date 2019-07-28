@@ -13,12 +13,12 @@ type circle struct {
 	radius float32
 }
 
-// Reciever type: circle*
+// Receiver type: circle*
 func (c *circle) area() float32 {
 	return c.radius * c.radius * math.Pi
 }
 
-// Reciever type: value
+// Receiver type: value
 func (c circle) perimeter() float32 {
 	return 2 * math.Pi * c.radius
 }

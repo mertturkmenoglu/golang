@@ -14,7 +14,7 @@ func root(arg float64) (float64, error) {
 	if arg < 0 {
 		// If argument is negative, then return an arbitrary integer
 		// And an error value. Basic error construction:
-		return -1, errors.New("Number can not be negative")
+		return -1, errors.New("number can not be negative")
 	}
 
 	// A nil value indicates no error happened
@@ -38,7 +38,7 @@ func area(len float64) (float64, error) {
 		// User defined error declaration syntax
 		return -1, &negativeError{len, "Side length must be positive"}
 	}
-	return (len * len), nil
+	return len * len, nil
 }
 
 // Driver code

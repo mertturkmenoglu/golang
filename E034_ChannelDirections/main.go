@@ -10,15 +10,15 @@ func sendMessage(msgChan chan<- string, msg string) {
 	msgChan <- msg
 }
 
-func recieveMessage(msgChan <-chan string) {
+func receiveMessage(msgChan <-chan string) {
 	fmt.Println(<-msgChan)
 }
 
 func main() {
 	msgChan := make(chan string, 1)
 	sendMessage(msgChan, "Message1")
-	recieveMessage(msgChan)
+	receiveMessage(msgChan)
 
 	sendMessage(msgChan, "Message2")
-	recieveMessage(msgChan)
+	receiveMessage(msgChan)
 }

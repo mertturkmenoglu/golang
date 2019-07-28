@@ -5,6 +5,7 @@ import "fmt"
 /**
  * Variables example
  */
+//noinspection ALL
 func main() {
 	// Declaring and initializing a variable
 	var str1 = "Hello"
