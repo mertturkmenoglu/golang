@@ -4,7 +4,10 @@
 
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"log"
+)
 
 func createMessage(numbers chan int, times int) {
 	for i := 0; i < times; i++ {
@@ -24,5 +27,9 @@ func main() {
 	go createMessage(numbers, times)
 	go printMessage(numbers, times)
 
-	fmt.Scanln()
+	_, err := fmt.Scanln()
+
+	if err != nil {
+		log.Fatal(err)
+	}
 }

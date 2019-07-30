@@ -27,6 +27,7 @@ func main() {
 		fmt.Println(message)
 	}("go running")
 
-	fmt.Scanln()
+	_, _ = fmt.Scanln()
+
 	fmt.Println("Program ends")
 }

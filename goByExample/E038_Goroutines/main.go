@@ -18,5 +18,5 @@ func main() {
 	go printMessage("Diana", 100)
 	go printMessage("Babushka", 100)
 
-	fmt.Scanln()
+	_, _ = fmt.Scanln()
 }

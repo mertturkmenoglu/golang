@@ -4,13 +4,20 @@
 
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"log"
+)
 
 func main() {
 	var n int
 
 	fmt.Println("Matrix size: ")
-	fmt.Scan(&n)
+	_, err := fmt.Scan(&n)
+
+	if err != nil {
+		log.Fatal(err)
+	}
 
 	mtr := make([][]int, n)
 

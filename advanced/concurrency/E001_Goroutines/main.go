@@ -11,7 +11,7 @@ var wg = sync.WaitGroup{}
 func fiveMilliDelay() {
 	for i := 0; i < 10; i++ {
 		fmt.Println("fiveMilliDelay,  ->", i)
-		time.Sleep(time.Duration(5 * time.Millisecond))
+		time.Sleep(5 * time.Millisecond)
 	}
 	wg.Done()
 }
@@ -19,7 +19,7 @@ func fiveMilliDelay() {
 func tenMilliDelay() {
 	for i := 0; i < 10; i++ {
 		fmt.Println("tenMilliDelay,  ->", i)
-		time.Sleep(time.Duration(10 * time.Millisecond))
+		time.Sleep(10 * time.Millisecond)
 	}
 	wg.Done()
 }

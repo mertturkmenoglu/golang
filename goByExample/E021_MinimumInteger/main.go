@@ -4,14 +4,21 @@
 
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"log"
+)
 
 func main() {
 	var array [10]int
 
 	for i := 0; i < 10; i++ {
 		fmt.Println("Element: ")
-		fmt.Scan(&array[i])
+		_, err := fmt.Scan(&array[i])
+
+		if err != nil {
+			log.Fatal(err)
+		}
 	}
 
 	var minIndex int
